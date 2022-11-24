@@ -1,45 +1,50 @@
 import './style.css';
-import Shoe from '../../assets/shoes/shoe1.jpg'
 import CloseIcon from '../../assets/close-icon.svg';
+import { handleCalculateInstallment } from '../../utils/functions'
 
-function Modal() {
+function Modal({ open, handleClose, product }) {
     return (
-        <div className='container-modal'>
-            <div className='modal'>
-                <div className='modal-body'>
-                    <img
-                        className='product-img'
-                        src={Shoe}
-                        alt=''
-                    />
+        <>
+            {open &&
+                <div className='container-modal'>
+                    <div className='modal'>
+                        <div className='modal-body'>
+                            <img
+                                className='product-img'
+                                src={product.image}
+                                alt='product'
+                            />
 
-                    <img
-                        className='close-icon'
-                        src={CloseIcon}
-                        alt='close icon'
-                    />
+                            <img
+                                className='close-icon'
+                                src={CloseIcon}
+                                alt='close icon'
+                                onClick={() => handleClose()}
+                            />
 
-                    <strong>Spato Lorem aaiaiai</strong>
-                    <p>descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao </p>
+                            <strong>{product.name}</strong>
+                            <p>{product.description}</p>
 
-                    <div className='container-buy'>
-                        <button className='btn-buy'>COMPRAR</button>
+                            <div className='container-buy'>
+                                <button className='btn-buy'>COMPRAR</button>
 
-                        <div className='container-prices'>
-                            <div className='content-prices'>
-                                <span>R$ 300,00</span>
-                                <h2>R$ 200,00</h2>
-                            </div>
+                                <div className='container-prices'>
+                                    <div className='content-prices'>
+                                        <span>R$ {product.oldPrice.toFixed(2)}</span>
+                                        <h2>R$ {product.currentPrice.toFixed(2)}</h2>
+                                    </div>
 
-                            <div className='content-installments'>
-                                <h4>6x 30,00</h4>
-                                <span>sem juros</span>
+                                    <div className='content-installments'>
+                                        <h4>6x {handleCalculateInstallment(product.currentPrice)}</h4>
+                                        <span>sem juros</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            }
+        </>
     )
 }
 
