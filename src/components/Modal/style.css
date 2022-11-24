@@ -13,13 +13,14 @@
 
 .modal {
     width: 774px;
-    height: 95vh;
+    min-height: 95vh;
     background-color: #FFFFFF;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: fixed;
+    top: 30px;
 }
 
 .modal-body {
