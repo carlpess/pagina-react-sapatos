@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pagina-react-sapatos/static/css/main.86b19da1.css",
+    "main.js": "/pagina-react-sapatos/static/js/main.0c5875ca.js",
+    "static/media/banner.jpg": "/pagina-react-sapatos/static/media/banner.03ee891f85ccbfc0930b.jpg",
+    "static/media/logo.svg": "/pagina-react-sapatos/static/media/logo.06600798be17360e2dc630e2ae7fe77b.svg",
+    "static/media/shoe6.jpg": "/pagina-react-sapatos/static/media/shoe6.e4b99a8fc2ad8209d6e2.jpg",
+    "static/media/shoe2.jpg": "/pagina-react-sapatos/static/media/shoe2.a6048fa1624d5ef78d61.jpg",
+    "static/media/shoe1.jpg": "/pagina-react-sapatos/static/media/shoe1.7ad698c35a1584698d6c.jpg",
+    "static/media/shoe3.jpg": "/pagina-react-sapatos/static/media/shoe3.5b5c8790f87799a8db7c.jpg",
+    "static/media/shoe5.jpg": "/pagina-react-sapatos/static/media/shoe5.d882e2193ac6ee9be708.jpg",
+    "static/media/shoe4.jpg": "/pagina-react-sapatos/static/media/shoe4.b2826a2aa2f92404d710.jpg",
+    "static/media/instagram.svg": "/pagina-react-sapatos/static/media/instagram.8f4539a6a302fffc687290e0f53f49ff.svg",
+    "index.html": "/pagina-react-sapatos/index.html",
+    "static/media/facebook.svg": "/pagina-react-sapatos/static/media/facebook.ffc812222c0004e7529c4f6c2d36e243.svg",
+    "static/media/close-icon.svg": "/pagina-react-sapatos/static/media/close-icon.e28418a41280a345edcad039fa1e5b0f.svg",
+    "main.86b19da1.css.map": "/pagina-react-sapatos/static/css/main.86b19da1.css.map",
+    "main.0c5875ca.js.map": "/pagina-react-sapatos/static/js/main.0c5875ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86b19da1.css",
+    "static/js/main.0c5875ca.js"
+  ]
+}
