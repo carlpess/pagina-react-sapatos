@@ -3,7 +3,7 @@ Moda Masculiana Sapatos (React)
 </h2>
 
 ## 🔗 Link do projeto
-[Moda Masculiana Sapatos ](https://carlpess.github)
+[Moda Masculiana Sapatos ](https://carlpess.github.io/pagina-react-sapatos/)
 ## 
 Exercício executado durante o curso na Cubos Academy.
 O objetivo do projeto reproduzir uma pagina de venda de sapatos utilizando o ReactJS.
