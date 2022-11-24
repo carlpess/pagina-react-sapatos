@@ -7,7 +7,7 @@ import shoes from '../../data';
 import { useState } from 'react';
 
 function Main() {
-  const [products, setProducts] = useState([...shoes]);
+  const [products] = useState([...shoes]);
   const [open, setOpen] = useState(false);
   const [currentProduct, setCurrentProduct] = useState({});
 
