@@ -19,33 +19,3 @@
 .container-product:hover {
     transform: scale(1.1);
 }
-
-.container-prices,
-.container-installments {
-    width: 200px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-prices {
-    margin-top: 20px;
-}
-
-.container-prices span {
-    color: #aba0a0;
-    text-decoration: line-through;
-    font-size: 12px;
-
-    margin-right: 4px;
-}
-
-.container-installments {
-    margin-top: 8px;
-}
-
-.container-installments span {
-    font-size: 12px;
-    margin-left: 4px;
-}

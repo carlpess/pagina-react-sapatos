@@ -21,7 +21,7 @@ function Main() {
         ))}
       </div>
       <Footer />
-      {/* <Modal /> */}
+      <Modal />
     </div>
   );
 }
