@@ -1,10 +1,19 @@
 import './style.css';
+import Logo from '../../assets/logo.svg'
 
 function Header() {
     return (
-        <div>
-            <h1>Header</h1>
-        </div>
+        <header>
+            <div>
+                <h1>MODA MASCULINA</h1>
+                <h2>SAPATOS SOCIAIS - CASUAIS - ESPORTE FINO</h2>
+            </div>
+            <img
+                className='logo'
+                src={Logo}
+                alt='logo'
+            />
+        </header>
     )
 }
 
